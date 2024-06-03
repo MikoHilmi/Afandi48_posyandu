@@ -19,16 +19,16 @@
                             @csrf
                             <div class="row mb-2">
                                 <div class="col-sm-12">
-                                    <label for="nama_ayah" class="col-form-label">Nama Ayah</label>
-                                    <input type="text" name="nama_ayah" id="nama_ayah" class="form-control"
-                                        placeholder="Masukkan nama lengkap ayah" required value="{{ $ortu->nama_ayah }}">
-                                </div>
-                            </div>
-                            <div class="row mb-2">
-                                <div class="col-sm-6">
                                     <label for="nik_ayah" class="col-form-label">NIK Ayah</label>
                                     <input type="text" name="nik_ayah" id="nik_ayah" class="form-control" placeholder=""
                                         required value="{{ $ortu->nik_ayah }}">
+                                    </div>
+                                </div>
+                                <div class="row mb-2">
+                                    <div class="col-sm-6">
+                                    <label for="nama_ayah" class="col-form-label">Nama Ayah</label>
+                                    <input type="text" name="nama_ayah" id="nama_ayah" class="form-control"
+                                        placeholder="Masukkan nama lengkap ayah" required value="{{ $ortu->nama_ayah }}">
                                 </div>
                                 <div class="col-sm-6">
                                     <label for="tanggal_lahir_ayah" class="col-form-label">Tanggal Lahir
@@ -40,16 +40,16 @@
                             </div>
                             <div class="row mb-2">
                                 <div class="col-sm-12">
-                                    <label for="nama_ibu" class="col-form-label">Nama Ibu</label>
-                                    <input type="text" name="nama_ibu" id="nama_ibu" class="form-control"
-                                        placeholder="Masukkan nama lengkap ibu" required value="{{ $ortu->nama_ibu }}">
-                                </div>
-                            </div>
-                            <div class="row mb-2">
-                                <div class="col-sm-6">
                                     <label for="nik_ibu" class="col-form-label">NIK Ibu</label>
                                     <input type="text" name="nik_ibu" id="nik_ibu" class="form-control" placeholder=""
                                         required value="{{ $ortu->nik_ibu }}">
+                                    </div>
+                                </div>
+                                <div class="row mb-2">
+                                    <div class="col-sm-6">
+                                    <label for="nama_ibu" class="col-form-label">Nama Ibu</label>
+                                    <input type="text" name="nama_ibu" id="nama_ibu" class="form-control"
+                                        placeholder="Masukkan nama lengkap ibu" required value="{{ $ortu->nama_ibu }}">
                                 </div>
                                 <div class="col-sm-6">
                                     <label for="tanggal_lahir_ibu" class="col-form-label">Tanggal Lahir Ibu</label>
